@@ -17,13 +17,14 @@ public class PruebaGit {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hola mundo");
-        System.out.println("hola mundo (en minúsculas)");
-        System.out.println("hola mundo (desde github.com)");
+//        System.out.println("Hola mundo");
+//        System.out.println("hola mundo (en minúsculas)");
+//        System.out.println("hola mundo (desde github.com)");
         
-        String textoSinEncriptar="sergio"; 
+        String textoSinEncriptar="sergio";
+        System.out.println("Texto sin encriptar: " + textoSinEncriptar);
         String textoEncriptadoConMD5=DigestUtils.md5Hex(textoSinEncriptar); 
         System.out.println("Texto Encriptado con MD5 : "+textoEncriptadoConMD5);
+        
     }
-    
 }
